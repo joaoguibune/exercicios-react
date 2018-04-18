@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import BuchFamily from './buchFamily'
+import {Primeiro, Segundo} from './component'
 
 ReactDOM.render(
-<BuchFamily />
+<div>
+    <Primeiro />
+    <Segundo />
+</div>
 , document.getElementById('app'))
